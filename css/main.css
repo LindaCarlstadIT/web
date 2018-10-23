@@ -4,14 +4,20 @@ body {
     font-weight: 300;
 }
 
+p {
+    cursor: default;
+}
+
 a {
     color: #FFF;
+    transition-duration: 0.3s;
 }
 
 a:hover {
-    opacity: 0.7;
+    opacity: 0.9;
     text-decoration: none;
-    color: #FFF;
+    color: #C9BC73;
+    transition-duration: 0.3s;
 }
 
 .navbar-brand img {
